@@ -1,0 +1,7 @@
+Etap drugi:
+	blokowanie wejścia do strefy A (tylko jedna kulka może w niej przybywac na raz)
+	kulki nie mogące przejść zatrzymwyane sa na graicy, a ich wątki sa blokowane
+Etap trzeci:
+	w obszarze blokowanym (A) może przebywać N kulek (stałe i widoczne albo parametr wywołania skryptu)
+	kulki, które wchodza ustawiają sie w kolejkę (blokują się i odblokowuje się pierwsza w kolejce czasowo (najdłużej stojąca))
+	kolejne kulki w kolejce mają się wyświetlać od góry do dołu na granicy (jak jakaś czeka, to zmienia ona swoją pozycję na pierwszą wolną w dół)
